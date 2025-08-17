@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Account</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <span class="g-logo">G</span>
+            <span class="o-logo">o</span>
+            <span class="o-logo">o</span>
+            <span class="g-logo">g</span>
+            <span class="l-logo">l</span>
+            <span class="e-logo">e</span>
+        </div>
+        <div class="header-account">Account</div>
+    </header>
+    <main>
+        <div class="card">
+            <div class="card-content">
+                <h1>Password</h1>
+                <p>Choose a strong password and don't reuse it for other accounts.</p>
+                <div class="password-input-container">
+                    <div class="input-wrapper">
+                        <label for="new-password">New password</label>
+                        <input type="password" id="new-password-input">
+                    </div>
+                    
+                    <div class="strength-info">
+                        <p>
+                            Password strength: 
+                            <span class="strength-indicator"></span>
+                        </p>
+                        <ul>
+                            <li>Use at least 8 characters.</li>
+                            <li>Don’t use a password from another site, or something too obvious like your pet’s name. <a href="#">Why?</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="input-wrapper confirm-password-wrapper">
+                        <label for="confirm-password">Confirm new password</label>
+                        <input type="password" id="confirm-password">
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer">
+                <button class="change-password-button">Change password</button>
+            </div>
+        </div>
+    </main>
+<script src="script.js"></script>
+</body>
+</html>
