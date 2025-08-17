@@ -1,0 +1,158 @@
+body {
+    font-family: 'Google Sans', Roboto, Arial, sans-serif;
+    background-color: #fff;
+    color: #202124;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 24px 32px;
+    border-bottom: 1px solid #dadce0;
+}
+
+.header-logo {
+    font-size: 22px;
+    margin-right: 4px;
+}
+
+.header-logo span {
+    font-weight: 500;
+}
+
+.g-logo {
+    color: #4285f4;
+}
+
+.o-logo {
+    color: #ea4335;
+}
+
+.l-logo {
+    color: #fbbc05;
+}
+
+.e-logo {
+    color: #34a853;
+}
+
+.header-account {
+    font-size: 22px;
+    color: #5f6368;
+    margin-left: 4px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+}
+
+.card {
+    width: 600px;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .3), 0 1px 3px 1px rgba(60, 64, 67, .15);
+    background-color: #fff;
+}
+
+.card-content {
+    padding: 24px 40px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0 0 16px 0;
+}
+
+p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #5f6368;
+}
+
+.password-input-container {
+    margin-top: 24px;
+}
+
+.input-wrapper {
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.input-wrapper label {
+    position: absolute;
+    top: -12px;
+    left: 8px;
+    font-size: 12px;
+    color: #5f6368;
+    background-color: #fff;
+    padding: 0 4px;
+}
+
+.input-wrapper input {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.strength-info {
+    margin-top: 16px;
+}
+
+.strength-info p {
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.strength-indicator {
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.strength-info ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.strength-info li {
+    font-size: 14px;
+    line-height: 20px;
+    color: #5f6368;
+    margin-bottom: 8px;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 16px 40px;
+    border-top: 1px solid #dadce0;
+}
+
+.forgot-link {
+    font-size: 14px;
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.change-password-button {
+    background-color: #1a73e8;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.confirm-password-wrapper {
+    margin-top: 20px;
+}
